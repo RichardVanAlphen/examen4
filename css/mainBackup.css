@@ -1,0 +1,257 @@
+/*PC*/
+body {
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+header {
+    display:inline-block;
+    width: 100%;
+    min-width: 768px;
+    height: 300px;
+    background-color: #f57114;
+    color: white;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+h1.center {
+    padding-top: 50px;
+}
+nav {
+    display:flex;
+    background-color: #bd560d;
+    border-style: solid;
+    border-color: #f4c102;
+    border-width: 0px;
+    border-bottom-width: 5px;
+    min-width: 768px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+li.nav{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+li.nav:hover {
+    background-color: #A44A0A;
+}
+main {
+    display: grid;
+    grid-template-columns: 30% 69%;
+    gap: 1%;
+    width: 100%;
+    min-width: 768px;
+}
+aside {
+    display: inline-block;
+    margin: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ffb785;
+}
+#inhoud {
+    display: inline-block;
+    min-height: 500px;
+    padding-right: 1%;
+}
+footer {
+    height: 120px;
+    min-width: 950px;
+    display:flex;
+    background-color:#d15f0f;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer ul{
+    list-style-type: none;
+}
+img {
+    width: 400px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h1 {
+    margin-top: 40px;
+}
+.titelKleur {
+    color: #d15f0f;
+}
+/*over ons*/
+.overOnsArticle {
+    margin-right: 20px;
+    min-height: 500px;
+}
+.overOnsArticle p {
+    margin-bottom: 30px;
+}
+#fotoHannah {
+    float: right;
+    width: auto;
+    height: 500px;
+}
+#fotoJesse {
+    float: left;
+    width: auto;
+    height: 500px;
+}
+/*blog*/
+article {
+    border-radius: 10px;
+    background-color: rgb(255 222 199);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+article:hover {
+    border-radius: 10px;
+    background-color: #ffb785;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.popOut {
+    list-style-type: none;
+}
+.popOut :hover {
+    margin-left: 5px;
+    font-weight: bold;
+}
+.popOut li {
+    margin-bottom: 10px;
+}
+#btnNewArticle {
+    margin-top: 25px;
+}
+/*article form*/
+#labelToevoegen {
+    font-weight: bold;
+    font-size: large;
+}
+#articleForm textarea {
+    width: 500px;
+}
+#auteurInput {
+    width: 500px;
+}
+#articleForm input {
+    margin-left: 2px;
+}
+#btnOpslaan {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #d15f0f;
+    border-style: none;
+}
+/*tarieven streepjes*/
+hr {
+    margin-right: 20px;
+}
+/*contact*/
+iframe {
+    width: 450px;
+    height: 450px;
+}
+form table{
+    width: 100%;
+}
+input  {
+    border-radius: 5px;
+    width: 96%;
+}
+select {
+    border-radius: 5px;
+    width: 96.5%;
+}
+#contactForm textarea {
+    border-radius: 5px;
+    width: 96%;
+    height: 200px;
+}
+#btnVerzend {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #d15f0f;
+    border-style: none;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    li.nav{
+        display: block;
+        padding: 20px;
+    }
+    nav ul{
+        width: 100%;
+    }
+    nav li{
+        text-align: center;
+    }
+    main{
+        display: inline-block;
+        width: 100%;
+    }
+    aside{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #inhoud {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    img {
+        width: 150px;
+    }
+    .imgGroot {
+        width: 90%;
+    }
+    #fotoHannah {
+        float: right;
+        width: auto;
+        height: 200px;
+    }
+    #fotoJesse {
+        float: left;
+        width: auto;
+        height: 200px;
+    }
+    iframe {
+        width: 99%;
+        height: 450px;
+    }
+    form table{
+        width: 100%;
+    }
+    input  {
+        border-radius: 5px;
+        width: 96%;
+    }
+    select {
+        border-radius: 5px;
+        width: 96.5%;
+    }
+    textarea {
+        border-radius: 5px;
+        width: 96%;
+        height: 200px;
+    }
+    #btnVerzend {
+        width: 100px;
+    }
+}

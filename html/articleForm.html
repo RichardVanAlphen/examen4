@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>Muziekschool H&J</title>
+        <meta name="description" content="Muziekschool .">
+        <meta name="keywords" content="muziek, muziekschool, jazz, ">
+        <meta name="author" content="Richard van Alphen">
+        <link rel="stylesheet" href="../jquery-ui-1.14.1/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zebra_datepicker@latest/dist/css/default/zebra_datepicker.min.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="../js/script.js" type="text/JavaScript"></script>
+        <script src="../jquery-ui-1.14.1/jquery-ui.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/zebra_datepicker@latest/dist/zebra_datepicker.min.js"></script>        </head>
+  <body>
+    <header>
+      <h1 class="center">Muziekschool H&J</h1>
+      <h2 class="center">Luisterend oor voor talent</h2> 
+    </header>
+    <nav>
+        <ul>
+            <li class="nav" id="btnHome"><a href="../index.html">Home</a></li>
+            <li class="nav" id="btnOverOns"><a href="overOns.html">Over ons</a></li>
+            <li class="nav" id="btnBlog"><a href="blog.html">Blog</a></li>
+            <li class="nav" id="btnTarieven"><a href="tarieven.html">Tarieven</a></li>
+            <li class="nav" id="btnContact"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+      <aside>
+        <a class="ui-button ui-widget ui-corner-all" href="blog.html">Terug</a>
+        <p id="labelToevoegen">Content toevoegen</p>
+        <ul class="popOut ">
+          <li id="addTitle">Titel toevoegen</li>
+          <li id="addParagraph">Paragraaf toevoegen</li>
+        </ul>
+      </aside>
+      <div id="inhoud">
+        <form id="articleForm">
+          <table id="articleTable">
+            <tr><td><label for="titel">Datum</label></td></tr>
+            <tr><td><input id="datepicker" type="text" class="datepicker"></td></tr>
+            <tr><td><label for="auteur">Auteur</label></td></tr>
+            <tr><td><input id="auteurInput" type="text" name="auteur" placeholder="Uw naam"></td></tr>
+            <tr><td><label for="titel">Titel</label></td></tr>
+            <tr><td><textarea id="titelInput" name="titel" placeholder="Uw titel hier" maxlength="50"></textarea></td></tr>
+            <tr><td><label for="paragraaf">Paragraaf</label></td></tr>
+            <tr><td><textarea id="paragraafInput" name="paragraaf" placeholder="Uw paragraaf hier" maxlength="1500"></textarea></td></tr>
+          </table>
+          <input id="btnOpslaan" type="submit" value="Opslaan">
+        </form>
+      </div>
+    </main>
+    <footer>
+      <ul class="footer">
+        <li>© Copyright 2021 Muziekschool H&J</li>
+        <li>(Dit is een oefenopdracht, alle informatie op deze website is fictief.)</li>
+      </ul>
+    </footer>
+  </body>
+</html>
