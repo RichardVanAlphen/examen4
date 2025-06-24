@@ -9,8 +9,8 @@ $(document).ready(function(){
     // Aside knoppen
     $('#btnCursus').on('click', function(){
         $('.close').slideUp();
-        $('cursus').slideDown();
-        $('cursusFullVersion').slideDown();
+        $('#cursus').slideDown();
+        $('#cursusFullVersion').slideDown();
     });
     $('#btnAanmelding').on('click', function(){
         $('.close').slideUp();
