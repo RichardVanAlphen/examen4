@@ -211,7 +211,10 @@ input  {
 /*Mobile*/
 @media only screen and (max-width: 768px) {
     header {
-        min-width: none;
+        min-width: 320px;
+    }
+    nav {
+    min-width: 320px;
     }
     li.nav{
         display: block;
@@ -230,7 +233,7 @@ input  {
     main{
         display: inline-block;
         width: 100%;
-        min-width: none;
+        min-width: 320px;
     }
     aside{
         display: block;
@@ -244,7 +247,7 @@ input  {
         padding-right: 0px;
     }
     footer {
-        min-width: none;
+        min-width: 320px;
     }
 
     /*Contact*/
