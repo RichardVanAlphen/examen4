@@ -7,6 +7,12 @@ $(document).ready(function(){
 
     // Artiekel openen/sluiten
     // Aside knoppen
+    $('#btnPreview').on('click', function(){
+        $('.close').slideUp();
+        $('#cursus').slideDown();
+        $('#aanmelding').slideDown();
+        $('#docent').slideDown();
+    });
     $('#btnCursus').on('click', function(){
         $('.close').slideUp();
         $('#cursus').slideDown();
