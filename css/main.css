@@ -130,9 +130,14 @@ h1 {
 .popOut :hover {
     margin-left: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .popOut li {
     margin-bottom: 10px;
+}
+#btnPreview:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 #btnNewArticle {
     margin-top: 25px;
@@ -151,6 +156,12 @@ h1 {
 }
 #fotoBerend {
     max-width: 100%;
+}
+.continuReading {
+    text-decoration: underline;
+}
+.preview {
+    background: linear-gradient(0deg,rgba(255, 255, 255, 0.8) 0%, rgb(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
 }
 /*article form*/
 #labelToevoegen {

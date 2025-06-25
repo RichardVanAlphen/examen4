@@ -1,17 +1,21 @@
 $(document).ready(function(){
-    // Laden artiekelen
-    $('.blogInhoud').load('../html/blogArtiekelen.html', function(){
+    // Laden artikelen
+    $('.blogInhoud').load('../html/blogArtikelen.html', function(){
         $('.oldArticle').hide();
         $('.fullVersion').hide();
     });
 
-    // Artiekel openen/sluiten
+    // Artikel openen/sluiten
     // Aside knoppen
     $('#btnPreview').on('click', function(){
-        $('.close').slideUp();
         $('#cursus').slideDown();
+        $('#cursusFullVersion').slideUp();
         $('#aanmelding').slideDown();
+        $('#aanmeldingFullVersion').slideUp();
         $('#docent').slideDown();
+        $('#docentFullVersion').slideUp();
+        $('#onderhoud').slideUp();
+        $('#opening').slideUp();
     });
     $('#btnCursus').on('click', function(){
         $('.close').slideUp();
@@ -36,7 +40,7 @@ $(document).ready(function(){
         $('.close').slideUp();
         $('#opening').slideDown();
     });
-    // Artiekel onClick
+    // Artikel onClick
     $('.blogInhoud').on('click', '#cursus', function(){
         $('#cursusFullVersion').slideToggle();
         $('#aanmelding').slideToggle();
@@ -71,7 +75,7 @@ $(document).ready(function(){
         const paragraaf = $('#paragraafInput').val();
 
         if(date !== '' && auteur !== '' && titel !== '' && paragraaf !== ''){
-            alert('Artiekel opgeslagen.');
+            alert('Artikel opgeslagen.');
         }
         else{
             alert('Zorg er voor dat alles is ingevuld.');
