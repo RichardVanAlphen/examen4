@@ -153,6 +153,7 @@ h1 {
     background-color: #ffb785;
     padding: 5px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 #fotoBerend {
     max-width: 100%;
