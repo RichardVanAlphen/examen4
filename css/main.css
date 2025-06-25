@@ -161,9 +161,6 @@ h1 {
 .continuReading {
     text-decoration: underline;
 }
-.preview {
-    background: linear-gradient(0deg,rgba(255, 255, 255, 0.8) 0%, rgb(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
-}
 /*article form*/
 #labelToevoegen {
     font-weight: bold;
