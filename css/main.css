@@ -89,7 +89,7 @@ h1 {
 .onderTitel {
     font-weight: bold;
 }
-#imgTrompet {
+#imgSaxofoon {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -97,7 +97,7 @@ h1 {
 #imgTrompetSpeler {
     width: 25%;
 }
-#imgSaxofoon {
+#imgSaxofoon2 {
     width: 25%;
 }
 /*over ons*/
@@ -188,6 +188,9 @@ h1 {
     background-color: #d15f0f;
     border-style: none;
 }
+#btnOpslaan:hover {
+    background-color: #A44A0A;
+}
 /*contact*/
 iframe {
     width: 100%;
@@ -215,6 +218,9 @@ input  {
     color: white;
     background-color: #d15f0f;
     border-style: none;
+}
+#btnVerzend:hover {
+    background-color: #A44A0A;
 }
 
 /*Mobile*/
@@ -257,6 +263,13 @@ input  {
     }
     footer {
         min-width: 320px;
+    }
+    /*Home*/
+    #imgTrompetSpeler {
+        width: 60%;
+    }
+    #imgSaxofoon2 {
+        width: 60%;
     }
     /*Contact*/
     iframe {
